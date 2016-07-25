@@ -1,0 +1,25 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ShowImage.aspx.cs" Inherits="TVLibTraCuuWeb.WShowImage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <asp:ImageButton ID="ImageButton1" runat="server" Height="128px" 
+            ImageUrl="~/Resources/Images/dk3e_word2000.jpg" Width="107px" />
+&nbsp;
+
+        <asp:ImageButton ID="ImageButton2" runat="server" Height="128px" 
+            ImageUrl="~/Resources/Images/Excel22.jpg" Width="107px" />
+&nbsp;&nbsp;
+        <asp:ImageButton ID="ImageButton3" runat="server" Height="97px" 
+            ImageUrl="~/Resources/Images/WinRAR.jpg" Width="72px" />
+    &nbsp;</div>
+    </form>
+</body>
+</html>

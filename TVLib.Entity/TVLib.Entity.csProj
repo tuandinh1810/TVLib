@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7139F83E-2FE7-43E7-9742-C3BF6D96959D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TruongViet.TVLib.Entity</RootNamespace>
+    <AssemblyName>TruongViet.TVLib.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BanDocInfo.cs" />
+    <Compile Include="BanDoc_KhoaTheInfo.cs" />
+    <Compile Include="BoSuuTapInfo.cs" />
+    <Compile Include="ChucNangInfo.cs" />
+    <Compile Include="DanTocInfo.cs" />
+    <Compile Include="DongTapInfo.cs" />
+    <Compile Include="File_BoSuuTapInfo.cs" />
+    <Compile Include="File_TruongDublinInfo.cs" />
+    <Compile Include="FiLesInfo.cs" />
+    <Compile Include="KhoInfo.cs" />
+    <Compile Include="KieuTuLieuBanGhiInfo.cs" />
+    <Compile Include="KyKiemKeInfo.cs" />
+    <Compile Include="LichSuMuonInfo.cs" />
+    <Compile Include="LienKetFileInfo.cs" />
+    <Compile Include="LoaiTaiLieuInfo.cs" />
+    <Compile Include="LoaiTienInfo.cs" />
+    <Compile Include="MARCInfo.cs" />
+    <Compile Include="MARC_FIELDInfo.cs" />
+    <Compile Include="MARC_FIELD_TYPEInfo.cs" />
+    <Compile Include="MauBienMucInfo.cs" />
+    <Compile Include="MauBienMuc_ChiTietInfo.cs" />
+    <Compile Include="MauPhichInfo.cs" />
+    <Compile Include="MauPhieuInfo.cs" />
+    <Compile Include="MaXepGiaInfo.cs" />
+    <Compile Include="NgheNghiepInfo.cs" />
+    <Compile Include="NguoiDungInfo.cs" />
+    <Compile Include="NguoiDung_ChucNangInfo.cs" />
+    <Compile Include="NguoiDung_PhanHeInfo.cs" />
+    <Compile Include="NhanGayInfo.cs" />
+    <Compile Include="NhatKyHeThongInfo.cs" />
+    <Compile Include="NhomBanDocInfo.cs" />
+    <Compile Include="PhanHeInfo.cs" />
+    <Compile Include="QuaTrinhNapTienInfo.cs" />
+    <Compile Include="SoTapChiInfo.cs" />
+    <Compile Include="TaiKhoanInfo.cs" />
+    <Compile Include="TaiKhoan_FileInfo.cs" />
+    <Compile Include="TaiLieuInfo.cs" />
+    <Compile Include="TaiLieuMuonInfo.cs" />
+    <Compile Include="TaiLieu_MarcFieldInfo.cs" />
+    <Compile Include="TemplateInfo.cs" />
+    <Compile Include="ThuVienInfo.cs" />
+    <Compile Include="TinhInfo.cs" />
+    <Compile Include="TrinhDoInfo.cs" />
+    <Compile Include="TruongDublinInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XepGia_LyDoThanhLyInfo.cs" />
+    <Compile Include="XepGia_ThanhLyInfo.cs" />
+    <Compile Include="YeuCauMuonInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

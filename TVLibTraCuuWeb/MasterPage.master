@@ -1,0 +1,120 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+
+<%@ Register src="ucFooter.ascx" tagname="ucFooter" tagprefix="uc4" %>
+
+<%@ Register src="ucMenu.ascx" tagname="ucMenu" tagprefix="uc5" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>TRA CỨU SÁCH TỰC TUYẾN</title>
+    <%-- <link href="Resources/Css/SanPHam.css" type="text/css" rel="StyleSheet">
+     <link href ="Resources/Css/MenuDoc.css" rel="Stylesheet"  type ="text/css" />
+    <LINK  href="Resources/Css/FSStyle.css" type="text/css" rel="Stylesheet" />--%>
+    <SCRIPT src="Resources/js/topAnchorScroll.js" type="text/javascript" ></SCRIPT>
+    
+  
+    </head>
+<body style="margin-top:0px">
+<script language ="javascript"  >
+var version = "other"
+browserName = navigator.appName;   
+browserVer = parseInt(navigator.appVersion);
+
+if (browserName == "Netscape" && browserVer >= 3) version = "n3";
+else if (browserName == "Netscape" && browserVer < 3) version = "n2";
+else if (browserName == "Microsoft Internet Explorer" && browserVer >= 4) version = "e4";
+else if (browserName == "Microsoft Internet Explorer" && browserVer < 4) version = "e3";
+
+function stopError() {return true;}
+window.onerror = stopError;
+function wireOpen()
+{
+	
+		document.write("<marquee behavior=scroll direction=up  height=210 scrollamount=2 scrolldelay=4 onmouseover='this.stop()' onmouseout='this.start()'>")
+	
+}
+
+function wireClose()
+{
+			document.write("</marquee>")
+	
+}
+function btnTimKiem_onclick() {
+
+}
+
+</script>
+    <form id="Opac" runat="server" style="margin-top:0px">
+    <table width="970px" cellpadding="0" cellspacing="0" align="center">
+     <tr>
+     <td width="100%" valign="top" align="center"  >
+         &nbsp;<asp:Label ID="lblImage" runat="server"></asp:Label>
+
+        <%-- <uc5:ucMenu ID="ucMenu1" runat="server" />--%>
+              </td>
+     </tr>
+      <%--  <tr>
+            <td style="width:2%;"></td>
+            <td style="width:96%; " align="right" >
+               <asp:Label ID="lbFullName" runat="server" Text="Welcome," Font-Bold="True" ForeColor="White" Visible="False"></asp:Label>
+               <asp:HyperLink ID="lnkUserName" runat="server" ForeColor="White" NavigateUrl="~/WCustomersInfor.aspx" Visible="False">[lnkUserName]</asp:HyperLink>
+               <asp:HyperLink ID="lnkLogout" runat="server" ForeColor="White" NavigateUrl ="~/Default.aspx?Logout=OK" Visible="False" >[Thoát]</asp:HyperLink>
+               <asp:HyperLink ID="lnkLogin" runat="server" ForeColor="White" NavigateUrl ="~/WLogincustomer.aspx" Visible="False" >Đăng nhập</asp:HyperLink></td>
+            <td style="width:2%;">            
+                <br />
+            </td>
+        </tr>--%>
+     
+             <tr>
+                  <td>
+                                 <table width ="100%">
+                                                  <td width="18%" valign ="top" align="left"   >
+                                                  
+                                                                 &nbsp;</td>
+                                                  <td width="64%" valign ="top" align="left" colspan="2" >
+                                                   
+                                                                  <asp:contentplaceholder id="content"  runat="server">
+                                                                            
+                                                         </asp:contentplaceholder>
+                                                  </td>    
+                                                  <td  width="18%" valign ="top" align="left" >
+                                                  
+                                                  <br />
+                                                  </td>  
+                                              </td>
+                                            </tr>
+                                         </table>
+                                      </td>
+                                             <td ></td></tr>
+                                        <tr>
+                                            <td>
+            
+                
+                
+            
+                
+                                            </td>
+                                            <td ></td>
+                                            <td ></td>
+                                        </tr>
+                            </table>            
+            </td>
+            <td></td>
+        </tr>
+        <tr >
+            
+            <td colspan="3">
+            
+                
+                </td>
+            
+        </tr>
+    </table>     
+     </tbody>
+    </form>
+</body>
+</html>

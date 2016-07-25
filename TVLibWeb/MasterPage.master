@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register assembly="DevExpress.Web.v8.3, Version=8.3.6.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073" namespace="DevExpress.Web.ASPxMenu" tagprefix="dxm" %>
+
+<%@ Register src="Banner.ascx" tagname="Banner" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Thư viện điện tử LibPro</title>
+    
+</head>
+<body style="margin-left:0; margin-top:-5px; margin-bottom:0; margin-right:0">
+    <form id="form1" runat="server">
+    <div>
+    <table width="970px" align="center" ccellpadding="0" cellspacing="0" align="center" style="margin-top:0px">
+    <tr>
+    <td>
+        <uc1:Banner ID="Banner1" runat="server" />
+    </td>
+    </tr>
+            <Tr>
+            <td>
+              <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+            </td>
+            </Tr>
+      
+    
+    </table>
+    
+    </div>
+    </form>
+</body>
+</html>

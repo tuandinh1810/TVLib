@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A380B79E-7A46-4A9E-9446-E61EA93A54B8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TruongViet.TVLibTraCuu.Data</RootNamespace>
+    <AssemblyName>TruongViet.TVLibTraCuu.Data</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cDBanDoc.cs" />
+    <Compile Include="cDBanDoc_Base.cs" />
+    <Compile Include="cDBase.cs" />
+    <Compile Include="cDBoSuuTap.cs" />
+    <Compile Include="cDBoSuuTap_Base.cs">
+      <DependentUpon>cDBoSuuTap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDChucNang.cs" />
+    <Compile Include="cDChucNang_Base.cs">
+      <DependentUpon>cDChucNang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDFile_BoSuuTap.cs" />
+    <Compile Include="cDFile_BoSuuTap_Base.cs">
+      <DependentUpon>cDFile_BoSuuTap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDFile_TruongDublin.cs" />
+    <Compile Include="cDFile_TruongDublin_Base.cs">
+      <DependentUpon>cDFile_TruongDublin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDFiLes.cs" />
+    <Compile Include="cDFiLes_Base.cs">
+      <DependentUpon>cDFiLes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDKho.cs" />
+    <Compile Include="cDKho_Base.cs" />
+    <Compile Include="cDKieuTuLieuBanGhi.cs" />
+    <Compile Include="cDKieuTuLieuBanGhi_Base.cs" />
+    <Compile Include="cDLichSuMuon.cs" />
+    <Compile Include="cDLichSuMuon_Base.cs" />
+    <Compile Include="cDLienKetFile.cs" />
+    <Compile Include="cDLienKetFile_Base.cs">
+      <DependentUpon>cDLienKetFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDLoaiTien.cs" />
+    <Compile Include="cDLoaiTien_Base.cs">
+      <DependentUpon>cDLoaiTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDMaXepGia.cs" />
+    <Compile Include="cDMaXepGia_Base.cs" />
+    <Compile Include="cDNguoiDung.cs" />
+    <Compile Include="cDNguoiDung_Base.cs">
+      <DependentUpon>cDNguoiDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDNguoiDung_ChucNang.cs" />
+    <Compile Include="cDNguoiDung_ChucNang_Base.cs">
+      <DependentUpon>cDNguoiDung_ChucNang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDNguoiDung_PhanHe.cs" />
+    <Compile Include="cDNguoiDung_PhanHe_Base.cs">
+      <DependentUpon>cDNguoiDung_PhanHe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDNhatKyHeThong.cs" />
+    <Compile Include="cDNhatKyHeThong_Base.cs">
+      <DependentUpon>cDNhatKyHeThong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDPhanHe.cs" />
+    <Compile Include="cDPhanHe_Base.cs">
+      <DependentUpon>cDPhanHe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDQuaTrinhNapTien.cs" />
+    <Compile Include="cDQuaTrinhNapTien_Base.cs">
+      <DependentUpon>cDQuaTrinhNapTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDTaiKhoan.cs" />
+    <Compile Include="cDTaiKhoan_Base.cs">
+      <DependentUpon>cDTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDTaiKhoan_File.cs" />
+    <Compile Include="cDTaiKhoan_File_Base.cs">
+      <DependentUpon>cDTaiKhoan_File.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDTaiLieu.cs" />
+    <Compile Include="cDTaiLieuMuon.cs" />
+    <Compile Include="cDTaiLieuMuon_Base.cs" />
+    <Compile Include="cDTaiLieu_Base.cs" />
+    <Compile Include="cDTaiLieu_TruongDublin.cs" />
+    <Compile Include="cDTaiLieu_TruongDublin_Base.cs" />
+    <Compile Include="cDTinTuc.cs" />
+    <Compile Include="cDTinTuc_Base.cs" />
+    <Compile Include="cDTruongDublin.cs" />
+    <Compile Include="cDTruongDublin_Base.cs">
+      <DependentUpon>cDTruongDublin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cDYeuCauMuon.cs" />
+    <Compile Include="cDYeuCauMuon_Base.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TVLibTraCuu.Entity\TVLibTraCuu.Entity.csproj">
+      <Project>{F8860208-2456-4FB7-9E0A-8189C1B8125A}</Project>
+      <Name>TVLibTraCuu.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,231 @@
+BODY 
+{
+	SCROLLBAR-FACE-COLOR: #dee3e7; 	
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #dee3e7; 
+	SCROLLBAR-DARKSHADOW-COLOR: #98aab1; 
+	SCROLLBAR-3DLIGHT-COLOR: #d1d7dc; 
+	SCROLLBAR-ARROW-COLOR: #006699; 
+	SCROLLBAR-TRACK-COLOR: #efefef; 
+	FONT-FAMILY: Arial, Times New Roman, Verdana; 
+	FONT-SIZE: 10pt; 
+	BACKGROUND-COLOR: #f0f3f4; 
+	margin-top: 0px;
+}
+TH {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11pt; 
+	MARGIN: 0px; 
+	COLOR: #880000; 
+	PADDING-TOP: 2px; 
+	FONT-FAMILY: Arial, Times New Roman, Verdana; 
+	BACKGROUND-COLOR: #c0cad6
+}
+TD {
+	FONT-SIZE: 10pt; 
+	FONT-FAMILY: Arial, Times New Roman, Verdana;
+}
+SELECT {
+	BORDER-RIGHT: #b0b0b0 1px solid; 
+	BORDER-TOP: #b0b0b0 1px solid; 
+	BORDER-LEFT: #b0b0b0 1px solid;
+	BORDER-BOTTOM: #b0b0b0 1px solid;  
+	FONT-SIZE: 10pt; 
+	COLOR: #000080; 
+	FONT-FAMILY: Arial, Times New Roman, Verdana;
+}
+TEXTAREA {
+	BORDER-RIGHT: #5d5d5d 1px solid; 
+	BORDER-TOP: #5d5d5d 1px solid; 	
+	BORDER-LEFT: #5d5d5d 1px solid; 
+	BORDER-BOTTOM: #5d5d5d 1px solid; 
+	COLOR: #000080; 
+	FONT-SIZE: 10pt; 
+	FONT-FAMILY: Arial, Times New Roman, Verdana;
+}
+A {
+	COLOR: blue; 
+	TEXT-DECORATION: none
+}
+A:Visited {
+	COLOR: blue; 
+	TEXT-DECORATION: none
+}
+.headerSuuTapSo
+{
+	width:970px;
+	background:url(../Images/TVLIb_ThuVienDienTu.png) no-repeat; 	
+	margin-top:3px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height:177px;
+}
+.TVLibPageTitle
+{
+	text-transform:uppercase;
+	BACKGROUND-COLOR: #C3D9FF;
+	PADDING-LEFT: 10px; 
+	PADDING-BOTTOM: 2px; 
+	FONT-WEIGHT: bold; 
+	PADDING-TOP: 2px; 
+	FONT-SIZE: 14pt; 	
+	COLOR: Green; 	
+	FONT-FAMILY: Arial,Times New Roman, Arial, Verdana; 	
+	height: 30px;
+}
+.TVLibFunctionTitle 
+{
+	text-transform:uppercase;
+	BACKGROUND-COLOR: #ddeeff;
+	PADDING-LEFT: 10px; 
+	PADDING-BOTTOM: 2px; 
+	FONT-WEIGHT: bold; 
+	PADDING-TOP: 2px; 
+	FONT-SIZE: 12pt; 	
+	COLOR: Blue; 	
+	FONT-FAMILY: Arial,Times New Roman, Arial, Verdana; 
+}
+.TVLibLinkHeader 
+{
+	FONT-SIZE: 10px; 
+	FONT-FAMILY: 'TAHOMA'; 
+	TEXT-DECORATION: none;
+	COLOR: black; 	
+}
+.TVLibLinkFunction {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 8pt; 
+	COLOR: blue; 
+	FONT-FAMILY: Verdana, Arial, Times New Roman; 
+	TEXT-DECORATION: none;
+}
+.TVLibGrid {
+	BORDER-TOP-STYLE: solid; 	
+	BORDER-RIGHT-STYLE: solid; 
+	BORDER-LEFT-STYLE: solid; 
+	BORDER-BOTTOM-STYLE: solid;
+	BORDER-RIGHT-COLOR: #b0b0d9; 	
+	BORDER-LEFT-COLOR: #b0b0d9; 
+	BORDER-BOTTOM-COLOR: #b0b0d9; 
+	BORDER-TOP-COLOR: #b0b0d9; 
+}
+.TVLibGridHeader {
+	FONT-WEIGHT:bold; 
+	FONT-SIZE: small; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Arial, Verdana; 
+	BACKGROUND-COLOR:#5D7B9D; 
+	TEXT-ALIGN: center;
+}
+.TVLibGridCell {
+	FONT-SIZE: small; 
+	COLOR: #000040; 
+	FONT-FAMILY: Arial, Verdana; 
+	BACKGROUND-COLOR: #ddeeff;
+}
+.TVLibGridAlterCell {
+	FONT-SIZE: small; 
+	COLOR: #000000; 
+	FONT-FAMILY: Arial, Verdana; 
+	BACKGROUND-COLOR: #eeeedd;
+}
+.TVLibGridPager 
+{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE:smaller ;
+	COLOR: #ffffff; 
+	FONT-FAMILY: Arial, Verdana; 
+	BACKGROUND-COLOR: #eebb88;
+}
+.TVLibGridEdit {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: small; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Arial, Verdana; 
+	BACKGROUND-COLOR: #cccccc;
+}
+.TVLibGridButton {
+	BORDER-RIGHT: #5d5d5d 1px solid; 
+	BORDER-TOP: #5d5d5d 1px solid; 
+	BORDER-BOTTOM: #5d5d5d 1px solid; 
+	BORDER-LEFT: #5d5d5d 1px solid; 
+	FONT-SIZE: 10pt; 
+	COLOR: #000080; 
+	FONT-FAMILY: Arial, Times New Roman, Verdana;
+}
+
+.TVLibButton {
+	BORDER-RIGHT: #5d5d5d 1px solid; 
+	BORDER-TOP: #f0f3f4; 
+	BORDER-LEFT: #f0f3f4; 
+	BORDER-BOTTOM: #5d5d5d 1px solid; 
+	PADDING-TOP: 3px; 
+	PADDING-BOTTOM: 2px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 8pt; 
+	COLOR: #486195; 
+	FONT-FAMILY: Verdana, Arial, Times New Roman;
+}
+.TVLibTextbox {
+	BORDER-RIGHT: #5d5d5d 1px solid; 
+	BORDER-TOP: #5d5d5d 1px solid; 
+	BORDER-BOTTOM: #5d5d5d 1px solid; 
+	BORDER-LEFT: #5d5d5d 1px solid; 
+	FONT-SIZE: 10pt; 
+	COLOR: #000080; 
+	FONT-FAMILY: Arial, Times New Roman, Verdana;
+}
+.TVLibRadio {
+	BORDER-LEFT-STYLE: none; 
+	BORDER-BOTTOM-STYLE: none;
+	FONT-SIZE: 10pt; 
+	COLOR: #000080; 
+	FONT-FAMILY: Arial, Times New Roman, Verdana; 
+}
+.TVLibCheckbox {
+	FONT-SIZE: 10pt; 
+	COLOR: #000080; 
+	FONT-FAMILY: Arial, Times New Roman, Verdana;
+}
+
+.TVLibLabel1 {
+	FONT-SIZE: 10pt; 
+	COLOR: #000080; 
+	FONT-FAMILY: Arial, Times New Roman, Verdana;
+}
+.TVLibTransparentLabel {
+	FONT-SIZE: 10pt; 
+	COLOR: white; 
+	FONT-FAMILY: Arial, Times New Roman, Verdana; 
+	BACKGROUND-COLOR: transparent;
+}
+#TableFull
+{   
+	width:970px;
+	margin-top: 0px;
+	margin-left: 0px;
+	border: 0; 
+}
+#TableCenter
+{   
+	background-color:#f0f3f4;
+	width:970px;	
+	height:100%;
+	border: 0; 
+	margin-top: 0px;
+	margin-left: 0px;	
+	border-color: #E0EFF6;	
+}
+.TVLibRow 
+{
+	
+	FONT-SIZE:smaller ;
+	FONT-WEIGHT: bold; 
+	COLOR:#FF6600 ; 
+	FONT-FAMILY: Arial, Verdana; 
+	BACKGROUND-COLOR:Transparent 
+}

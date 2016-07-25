@@ -1,0 +1,18 @@
+﻿192.168.1.299
+pass:information
+SQL
+essadmin	ess10102012
+
+
+chị Vân :thanhvan.hut@gmail.com
+0975294584
+E Nhung :truongnhung.bg@gmail.com
+01652004986
+E Quyên :t2quyenbg@gmail.com
+
+ALTER DATABASE TVLib_VienNoiVu SET COMPATIBILITY_LEVEL = 100
+
+ALTER FULLTEXT INDEX ON TaiLieu_MarcField SET STOPLIST = OFF
+
+29/06/2014
+Thêm dữ liệu vào bảng Phan hệ

@@ -1,0 +1,44 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: white; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 11px Tahoma, Arial, Verdana; COLOR: #333333; PADDING-TOP: 0px
+}
+#load_img {
+	BACKGROUND: url(../Images/diamond-black-hover.gif); WIDTH: 0px; HEIGHT: 0px
+}
+
+LinkKhoaHoc {
+	FONT: 11px Tahoma, Arial, Verdana; COLOR: Green; TEXT-DECORATION: none
+}
+
+TABLE {
+	BORDER-COLLAPSE: collapse
+}
+#page {
+	MARGIN: 0px auto; WIDTH: 100%; background-color:White;
+}
+.menutulam {
+	WIDTH: 100%
+}
+.menutulam UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../Images/w.gif) #ffffff repeat-x center center; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.menutulam UL LI {
+	DISPLAY: inline
+}
+.menutulam UL LI A {
+	BORDER-RIGHT: #ffffff 1px solid; PADDING-RIGHT: 11px; PADDING-LEFT: 11px; FONT-WEIGHT: bold; FLOAT: left; PADDING-BOTTOM: 5px; COLOR: #ffffff; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+.menutulam UL LI A:hover {
+	FONT-WEIGHT: bold; BACKGROUND: url(../Images/y.gif) white repeat-x center center; PADDING-BOTTOM: 4px; COLOR: #ffffcc! important; PADDING-TOP: 6px
+}
+.menutulam UL LI .current {
+	FONT-WEIGHT: bold; BACKGROUND: url(../Images/y.gif) white repeat-x center center; PADDING-BOTTOM: 4px; COLOR: #ffffcc! important; PADDING-TOP: 6px
+}
+#dropmenudiv {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; Z-INDEX: 100; FONT: 12px/18px Verdana; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 0px solid; POSITION: absolute
+}
+#dropmenudiv A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; WIDTH: 100%; TEXT-INDENT: 3px; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; TEXT-DECORATION: none
+}
+#dropmenudiv A:hover {
+	BACKGROUND-COLOR: #98cb00
+}

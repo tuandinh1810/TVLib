@@ -1,0 +1,251 @@
+body {	
+	font-family: Arial Unicode MS, Arial, Verdana; 
+	font-size: 10pt;
+	topmargin: 0;
+	scrollbar-face-color: #dee3e7; 
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #dee3e7; 
+	scrollbar-3dlight-color: #d1d7dc; 
+	scrollbar-track-color: #efefef; 
+	scrollbar-arrow-color: #006699; 
+	scrollbar-darkshadow-color: #98aab1	
+}
+
+th {
+	background-color: #c0cad6; 
+	color: #880000; 
+	font-family: Arial Unicode MS, Arial, Verdana; 
+	font-size: 11pt; 
+	font-weight: bold; 
+	padding-top: 2; 
+	margin: 0px
+}
+td {
+	font-family: Arial Unicode MS, Arial, Verdana; 
+	font-size: 10pt
+}
+select {
+	border-top: #b0b0b0 1px solid; 
+	border-right: #b0b0b0 1px solid; 
+	border-bottom: #b0b0b0 1px solid; 
+	border-left: #b0b0b0 1px solid; 
+	font-family: Arial Unicode MS, Arial, Verdana; 
+	color: #000080; 
+	font-size: 10pt
+}
+textarea {
+	border-top: #5d5d5d 1px solid; 
+	border-right: #5d5d5d 1px solid; 
+	border-bottom: #5d5d5d 1px solid; 
+	border-left: #5d5d5d 1px solid; 
+	font-family: Arial Unicode MS, Arial, Verdana; 
+	color: #000080; 
+	font-size: 10pt
+}
+a {
+	color: #000049;
+	text-decoration: none;	
+}
+a: visited {
+	color: #990000; 	
+}
+a: link {
+	color: #000080;	
+}
+a: active {
+	color: #000088; 		
+}
+a: hover {
+	color: #000099; 		
+}
+.TruongVietTextbox 
+{
+	border-top: #5d5d5d 1px solid; 
+	border-right: #5d5d5d 1px solid; 
+	border-bottom: #5d5d5d 1px solid; 
+	border-left: #5d5d5d 1px solid; 
+	font-family: Arial Unicode MS, Arial, Verdana; 
+	color: #000080; 
+	font-size: 10pt
+}
+.TruongVietRadio 
+{    
+    border-bottom-style:none;
+    border-left-style: none;
+	font-family: Arial Unicode MS, Arial, Verdana;
+	color: #000080; 
+	font-size: 10pt	
+}
+.TruongVietCheckbox {
+	font-family: Arial Unicode MS, Arial, Verdana;
+	font-size: 10pt	
+}
+.TruongVietButton {
+	border-top: #f0f3f4;
+	border-left: #f0f3f4;
+	border-right: #5d5d5d 1px solid; 
+	border-bottom: #5d5d5d 1px solid; 
+	color: #486195;
+	font-family: Verdana, Arial Unicode MS, Arial;
+	font-size: 8pt;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 2px
+}
+.TruongVietLinkFunction {
+	font-family: Verdana, Arial Unicode MS, Arial;	
+	color: #0066CC;
+	font-size: 10pt;		
+	text-decoration: none
+}
+
+.TruongVietMenuFunction {
+	font-family: Verdana, Arial Unicode MS, Arial;
+	font-weight:bold;
+	color: Black;
+	font-size: 8pt;		
+	text-decoration: none
+}
+.TruongVietGrid {
+	border-style: none;
+    border-right-style: solid ;
+    border-right-color: #b0b0d9;
+    border-left-style: solid ;
+    border-left-color: #b0b0d9;    
+    border-top-style: solid ;
+    border-top-color: #b0b0d9;
+    border-bottom-style: solid ;
+    border-bottom-color: #b0b0d9;        
+}
+.TruongVietGridHeader 
+{
+	background-color:336699;
+	font-family: @Arial Unicode MS, Verdana;
+	font-size: small ;
+	font-weight: bold;
+	color:White;
+    text-align:center
+}
+.TruongVietGridCell 
+{
+	background-color:ddeeff;
+	font-family: @Arial Unicode MS, Verdana;
+	font-size: small ;
+	color: #000040
+}
+.TruongVietGridAlterCell 
+{
+	background-color:eeeecc;
+	font-family: @Arial Unicode MS, Verdana;
+	font-size: small ;
+	color: #000080
+}
+.TruongVietGridPager {
+	background-color:eebb88;
+	font-family: @Arial Unicode MS, Verdana;
+	font-size: small;
+	font-weight:bold;
+	color: #ffffff
+}
+.TruongVietGridEdit {
+	background-color:#CCCCCC;
+	font-family: @Arial Unicode MS, Verdana;
+	font-size: small;
+	font-weight:bold;
+	color: #ffffff
+}
+.TruongVietGridButton {
+}
+
+
+.TruongVietPageTitle {
+	background-color: lightsteelblue;
+	color: #ffffff; 
+	font-weight: bold;
+	font-family: Arial, Arial Unicode MS, Verdana; 
+	font-size: 13pt;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px
+}
+.TruongVietTrPageTitle 
+{
+	background: 336699;
+	color: #ffffff; 
+	font-weight: bold;
+	font-family: Arial, Arial Unicode MS, Verdana; 
+	font-size: 18pt;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px	
+}
+.TruongVietTrButton
+{
+	background: C0C0C0;
+	color: #ffffff; 
+	font-weight: bold;
+	font-family: Arial, Arial Unicode MS, Verdana; 
+	font-size: 18pt;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px	
+}
+
+.TruongVietGroupTitle {
+	background-color: AEAEAE;
+	color: #ffffff; 
+	font-weight: bold;
+	font-family:  Arial, Arial Unicode MS, Verdana;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 12pt;
+	padding-left: 8px
+}
+.TruongVietFunctionTitle {
+	font-weight: bold;
+	font-family:  @Arial Unicode MS;
+	font-size: 10pt;
+	color:#000066;
+}
+.TruongVietFunctionDetail 
+{
+	font-family:Tahoma;
+	font-size: 8pt;
+	padding-top: 2px;
+}
+
+.TruongVietSubformTitle 
+{
+	background-color: 448899;
+	font-family: @Arial Unicode MS;
+	font-size: 10pt;
+	font-weight: bold;
+	color: White;
+	padding-left:8px
+}
+.TruongVietLabel {
+	color: #000080; 
+	font-family: Arial Unicode MS, Arial, Verdana; 
+	font-size: 10pt 
+}
+.TruongVietSubTitle
+{
+	font-family: Arial Unicode MS, Arial, Verdana; 
+	font-size: 12pt;
+    font-weight: bold
+}
+.TruongVietAmount
+{
+	color: 990000;
+	font-family: Arial Unicode MS, Arial, Verdana;
+	font-size: 10pt;
+	font-weight: bold
+}
+
+.TruongVietTransparentBgLabel
+{
+	background-color: Transparent;
+	color: White; 
+	font-family: Arial Unicode MS, Arial, Verdana; 
+	font-size: 10pt; 
+}
